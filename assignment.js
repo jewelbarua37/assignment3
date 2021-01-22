@@ -25,6 +25,7 @@ var totalBudget = budgetCalculator(2, 5, 7);
 
 //console.log(totalBudget);
 
+//megaFriend
 
  var friends = ["Amit", "Borhan", "Fozlu", "Kashmir"];
  var longName = friends[0];
