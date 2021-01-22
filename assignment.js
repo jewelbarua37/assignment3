@@ -2,11 +2,11 @@
 
 // kilometerToMeter
 
-function KilometerToMeter(kilometer){
+function kilometerToMeter(kilometer){
     var meter = kilometer*1000;
     return meter;
 }
-var meter = KilometerToMeter(150);
+var meter = kilometerToMeter(150);
 console.log(meter);
 
 // budgetCalculator
