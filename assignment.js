@@ -7,7 +7,9 @@ function kilometerToMeter(kilometer){
     return meter;
 }
 var meter = kilometerToMeter(150);
-console.log(meter);
+
+//console.log(meter);
+
 
 // budgetCalculator
 
@@ -20,4 +22,17 @@ function budgetCalculator(watch, mobile, laptop){
 }
 
 var totalBudget = budgetCalculator(2, 5, 7);
-console.log(totalBudget);
+
+//console.log(totalBudget);
+
+
+ var friends = ["Amit", "Borhan", "Fozlu", "Kashmir"];
+ var longName = friends[0];
+
+    for (var i=0; i < friends.length; i++){
+       if(friends[i].length>longName.length){
+             longName = friends[i];
+      }
+   }
+
+//console.log(longName);
